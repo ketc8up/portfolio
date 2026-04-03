@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+
+    <meta charset = "UTF-8">
+
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data:; connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; object-src 'none'; base-uri 'none'; form-action 'self'; require-trusted-types-for 'script';">
+
+    <meta name = "description" content = "Portfolio Website of Uman Debnath -- CS Undergrad at IIIT Hyderabad">
+
+    <title> Uman Debnath | Portfolio </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@400;700&family=Delius&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "css/styles.css">
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class = "header__inner">
+
+            <a href = "index.html" class = "logo" aria-label = "Uman Debnath - Home">
+                kétchup
+            </a>
+
+            <nav aria-label = "Main navigation">
+
+                <ul>
+
+                    <li><a href = "index.html" aria-current = "page">Home</a></li>
+                    <li><a href = "about.html">About</a> </li>
+                    <li><a href = "projects.html">Projects</a> </li>
+                    <li><a href = "contact.html">Contact</a> </li>
+                </ul>
+            </nav>
+
+            <button
+                id = "theme-toggle"
+                aria-label = "Switch to dark theme"
+                aria-pressed = "false"
+            >
+                🌙
+            </button>
+
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class = "hero" aria-labelledby = "hero-heading">
+
+            <div class = "hero__content">
+
+                <p class =  "hero__greeting animate-stagger-1">
+                    Hi, I'm ... 
+                </p>
+
+                <h1 id = "hero-heading" class = "hero__name animate-stagger-2">
+
+                    Uman Debnath
+                </h1>
+
+                <p class = "hero__tagline animate-stagger-3">
+
+                    <span class = "typed-target">CSD Undergrad at IIIT Hyderabad</span>
+                </p>
+
+                <div class = "hero__cta animate-stagger-3">
+
+                    <a href = "projects.html" class = "btn btn--primary">See My Work</a>
+                    <a href = "about.html" class = "btn btn--secondary">About ME</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class = "highlights scroll-reveal" aria-labelledby = "highlights-heading">
+
+            <h2 id = "highlights-heading">My Skills</h2>
+
+            <div class = "highlights__grid">
+
+                <article class="highlight-card">
+
+                    <h3>Bash</h3>
+                    <p>I can write small bash scripts to automate trivial and sometimes troublesome tasks on my pc</p>
+
+                </article>
+
+                <article class="highlight-card">
+                    <h3>Python</h3>
+                    <p>I have basic proficiency in writing python programs, willing to take that prowess forward to cp</p>
+                </article>
+                
+                <article class="highlight-card">
+                    <h3>Javascript</h3>
+                    <p>Just starting out!!!</p>
+                </article>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer__inner">
+            <p>© 2026 Uman Debnath. Built with HTML, CSS, and JavaScript.</p>
+ 
+            <nav aria-label="Social links">
+
+                <ul>
+                    <li>
+                        <a href="https://github.com/ketc8up" target="_blank" rel="noopener noreferrer">
+
+                            GitHub
+                        
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://linkedin.com/in/uman-debnath-99292a1b2/" target="_blank" rel="noopener noreferrer">
+                        LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+    
+</body>
+
+
+
+</html>

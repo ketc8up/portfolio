@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data:; connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; object-src 'none'; base-uri 'none'; form-action 'self'; require-trusted-types-for 'script';">
+  <meta name="description" content="About Uman Debnath — CS student at IIIT Hyderabad, my journey, skills, and milestones.">
+  <title>About — Uman Debnath</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@400;700&family=Delius&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="header__inner">
+      <a href="index.html" class="logo" aria-label="Uman Debnath — Home">
+        kétchup
+      </a>
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button
+        id="theme-toggle"
+        aria-label="Switch to dark theme"
+        aria-pressed="false"
+      >
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-hero" aria-labelledby="about-heading">
+      <div class="container">
+        <h1 id="about-heading" class="animate-stagger-1">
+          About Me
+        </h1>
+
+        <p class="page-hero__subtitle animate-stagger-2">
+          CSD student · Builder · Software Development
+        </p>
+      </div>
+    </section>
+
+    <section class="about-intro scroll-reveal" aria-labelledby="statement-heading">
+      <div class="container">
+        <div class="about-intro__layout">
+
+          <div class="about-intro__photo">
+            <figure>
+              <img
+                src="images/pfp.jpg"
+                alt="My photo >>"
+                width="380"
+                height="380"
+                class="about-photo"
+              >
+
+              <figcaption>
+                Uman Debnath · 2025
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="about-intro__text">
+            <h2 id="statement-heading">Who Am I?</h2>
+
+            <p>
+              I’m a first-year dual-degree (B.Tech + MS) student at IIIT Hyderabad, driven by a constant curiosity to understand what really happens beneath the surface of the systems I use. I’m drawn to the intersection of mathematics and computing, where abstract concepts meet practical implementation. Whether it’s working through linear algebra or dealing with low-level details in C, I enjoy problems that demand both precision and creativity.
+            </p>
+
+            <p>
+              My interest in building started early, but it evolved into a deeper focus on systems and logic as I got into programming. One of my projects involved implementing the classic strategy game Twixt in C, where I worked on translating game rules into efficient logic and handling edge cases cleanly. In another project, C-Unplugged, I built a terminal-based music player simulator in C, complete with features like albums, playlists, and track navigation. These experiences pushed me to think about structure, user flow, and how much can be achieved even within constrained environments.
+            </p>
+
+            <p>
+              Alongside building, I’ve also taken initiative in teaching. I started a course called “Aceiiit” after noticing the lack of structured resources for UGEЕ REAP preparation online. Through this, I work with students on developing the kind of thinking required to tackle REAP-style problems, focusing less on rote methods and more on intuition, pattern recognition, and disciplined reasoning.
+            </p>
+
+            <p>
+              Right now, I’m exploring areas like parallel computing and strengthening my fundamentals in algorithms and systems. I enjoy breaking down complex problems, optimizing for efficiency, and occasionally finding unconventional shortcuts that just work. I’m always open to discussions around problem solving, system design, or anything that pushes the boundaries of how we think about computing.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="about-skills scroll-reveal" aria-labelledby="skills-heading">
+      <div class="container">
+
+        <h2 id="skills-heading" class="sr-only">What I Work With</h2>
+
+
+      </div>
+    </section>
+
+    <section class="about-timeline scroll-reveal" aria-labelledby="timeline-heading">
+      <div class="container">
+
+        <h2 id="timeline-heading">Some Milestones</h2>
+
+        <ul id="timeline" class="timeline">
+
+          <li class="timeline__item" data-index="0">
+            <button
+              class="timeline__trigger"
+              aria-expanded="false"
+              aria-controls="timeline-panel-0"
+            >
+              <span class="timeline__year">2026</span>
+              <span class="timeline__title">Started AceIIIT</span>
+              <span class="timeline__icon" aria-hidden="true"></span>
+            </button>
+
+            <div class="timeline__panel" id="timeline-panel-0">
+              <p class="timeline__detail">
+                Me and my friends came up with the idea of helping students preparing for ugee very randomly,
+                so we thought we would release a course where we teach them to think through the kind of problems 
+                asked in ugee, especially in the reap section. 
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item" data-index="1">
+            <button
+              class="timeline__trigger"
+              aria-expanded="false"
+              aria-controls="timeline-panel-1"
+            >
+              <span class="timeline__year">2025</span>
+              <span class="timeline__title">AIR 2 in UGEE</span>
+              <span class="timeline__icon" aria-hidden="true"></span>
+            </button>
+
+            <div class="timeline__panel" id="timeline-panel-1">
+              <p class="timeline__detail">
+                Joined IIIT Hyderabad with an All India Rank 2 in UGEE 2025!
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item" data-index="2">
+            <button
+              class="timeline__trigger"
+              aria-expanded="false"
+              aria-controls="timeline-panel-2"
+            >
+              <span class="timeline__year">2024</span>
+              <span class="timeline__title">Cleared NSEC</span>
+              <span class="timeline__icon" aria-hidden="true"></span>
+            </button>
+
+            <div class="timeline__panel" id="timeline-panel-2">
+              <p class="timeline__detail">
+                Qualified National Standard Examination in Chemistry (NSEP) with a score of 89, placing me among the top 359 candidates who appeared for
+                Indian National Chemistry Olmpiad (INChO) 2025
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item" data-index="3">
+            <button
+              class="timeline__trigger"
+              aria-expanded="false"
+              aria-controls="timeline-panel-3"
+            >
+              <span class="timeline__year">2023</span>
+              <span class="timeline__title">Passed 10th</span>
+              <span class="timeline__icon" aria-hidden="true"></span>
+            </button>
+
+            <div class="timeline__panel" id="timeline-panel-3">
+              <p class="timeline__detail">
+                Passed class 10 with 99.2%
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item" data-index="4">
+            <button
+              class="timeline__trigger"
+              aria-expanded="false"
+              aria-controls="timeline-panel-4"
+            >
+              <span class="timeline__year">2015</span>
+              <span class="timeline__title">Joined middle school</span>
+              <span class="timeline__icon" aria-hidden="true"></span>
+            </button>
+
+            <div class="timeline__panel" id="timeline-panel-4">
+              <p class="timeline__detail">
+                This is when I started studying at Ramakrishna Mission Vidyalaya, Vivekanagar
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer__inner">
+      <p>© 2026 Uman Debnath. Built with HTML, CSS, and JavaScript.</p>
+
+      <nav aria-label="Social links">
+        <ul>
+          <li>
+            <a href="https://github.com/ketc8up" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/uman-debnath-99292a1b2/" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+  <script type="module" src="js/about.js"></script>
+
+</body>
+</html>
